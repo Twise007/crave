@@ -18,10 +18,10 @@ function App() {
   return (
     <BrowserRouter>
       <ToastContainer />
-      <div className="relative z-0 bg-bg-white text-bg-black">
+      <div className="relative z-0 bg-bg-white text-bg-black font">
         <div className="bg-center bg-no-repeat bg-cover hero">
-          <Navbar/>
-          <Hero/>
+          <Navbar />
+          <Hero />
         </div>
       </div>
     </BrowserRouter>
