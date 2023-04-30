@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <ToastContainer />
       <div className="relative z-0 bg-bg-white text-bg-black font">
-        <div className="bg-center bg-no-repeat bg-cover hero">
+        <div className="min-h-screen bg-center bg-no-repeat bg-cover hero">
           <Navbar />
           <Hero />
         </div>

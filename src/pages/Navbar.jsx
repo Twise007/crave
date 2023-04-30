@@ -71,7 +71,7 @@ const Navbar = () => {
                 active === nav.title
                   ? "border-b-4 border-bg-red"
                   : "text-bg-black"
-              } hover:text-bg-btn hover:border-b-4 hover:border-bg-red text-[18px] font-medium cursor-pointer duration-500`}
+              } hover:border-b-4 hover:border-bg-red text-[18px] font-medium cursor-pointer duration-500 px-1`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
