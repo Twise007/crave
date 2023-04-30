@@ -10,7 +10,7 @@ import {
   BsBagHeart,
 } from "react-icons/bs";
 import { AiOutlineUser } from "react-icons/ai";
-// import { logo } from "../assets";
+import { logo } from "../assets";
 import { styles } from "../styles";
 
 const navLinks = [
