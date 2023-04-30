@@ -5,13 +5,6 @@ import "./index.css";
 import {
   Hero,
   Navbar,
-  About,
-  Chefs,
-  FoodMenu,
-  Testimonies,
-  Specials,
-  Locations,
-  Footers,
 } from "./pages";
 
 function App() {

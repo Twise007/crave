@@ -3,7 +3,7 @@ import Chefs from './Chefs'
 
 const About = () => {
   return (
-    <div>About
+    <div>Aboutn
       <Chefs/>
     </div>
   )
