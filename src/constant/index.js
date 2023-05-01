@@ -1,23 +1,23 @@
-import { beans, curry, jollofR, okra, amala, fried, egusi } from "../assets";
+import { beans, curry, jollofR, okra, amala, fried, egusi, woman, blackMan, chef } from "../assets";
 
 const staffs = [
   {
     id: 1,
-    image: beans,
-    title: "Beans and fried plantains",
-    description: "",
+    image: woman,
+    title: "Customer Representative",
+    name: "Alicia Keys",
   },
   {
     id: 2,
-    image: beans,
-    title: "Beans and fried plantains",
-    description: "",
+    image: chef,
+    title: "Senior Chef Manager",
+    name: "John Lee",
   },
   {
     id: 3,
-    image: beans,
-    title: "Beans and fried plantains",
-    description: "",
+    image: blackMan,
+    title: "Managing Director",
+    name: "Samuel Edwards",
   },
 ];
 

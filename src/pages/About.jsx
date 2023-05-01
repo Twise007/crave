@@ -4,8 +4,8 @@ import { styles } from '../styles';
 
 const About = () => {
   return (
-    <div>
-      <div className="py-16" id="about us">
+    <div className="pt-16" id="about us">
+      <div className="pb-8">
         <div className="leading-10 text-center">
           <p className={` ${styles.sectionSubText}text-bg-black`}>
             what we stand for
@@ -14,7 +14,7 @@ const About = () => {
             get to know us and our staffs
           </h1>
         </div>
-        <p className={`${(styles.paddingX)} pt-6`}>
+        <p className={`${styles.paddingX} pt-6`}>
           Crave is an online restaurant, where delicious cuisine served and
           exceptional dining experience is provide for customers. Whether you're
           looking for a romantic dinner for two or a family feast, our menu

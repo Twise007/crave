@@ -8,5 +8,22 @@ import fried from "./fried.png";
 import egusi from "./egusi.png";
 import coffee from "./coffee.png";
 import logo from "./logo.png";
+import chef from "./chef.png";
+import woman from "./woman.png";
+import blackMan from "./blackMan.png";
 
-export { fiveChickhen, beans, curry, jollofR, okra, amala, fried, egusi, coffee, logo };
+export {
+  fiveChickhen,
+  beans,
+  curry,
+  jollofR,
+  okra,
+  amala,
+  fried,
+  egusi,
+  coffee,
+  logo,
+  blackMan,
+  chef,
+  woman,
+};
