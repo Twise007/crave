@@ -19,7 +19,7 @@ const Specials = () => {
               <img
                 src={meal.image}
                 alt="meal"
-                className="object-cover w-[180px] h-[180px]"
+                className="object-cover w-[200px] h-[200px]"
               />
             </figure>
             <div className={`items-center justify-center text-center`}>

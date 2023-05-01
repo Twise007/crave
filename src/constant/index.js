@@ -1,12 +1,25 @@
-import {
-  beans,
-  curry,
-  jollofR,
-  okra,
-  amala,
-  fried,
-  egusi,
-} from "../assets";
+import { beans, curry, jollofR, okra, amala, fried, egusi } from "../assets";
+
+const staffs = [
+  {
+    id: 1,
+    image: beans,
+    title: "Beans and fried plantains",
+    description: "",
+  },
+  {
+    id: 2,
+    image: beans,
+    title: "Beans and fried plantains",
+    description: "",
+  },
+  {
+    id: 3,
+    image: beans,
+    title: "Beans and fried plantains",
+    description: "",
+  },
+];
 
 const popularMenu = [
   {
@@ -129,4 +142,4 @@ const popularMeal = [
   },
 ];
 
-export { popularMenu, heroBanner, popularMeal };
+export { popularMenu, heroBanner, popularMeal, staffs };
