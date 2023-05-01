@@ -23,12 +23,12 @@ const Hero = () => {
       }}
       navigation={true}
       modules={[Autoplay, Pagination, Navigation]}
-      className="mySwiper"
+      className="duration-500 mySwiper"
     >
       {heroBanner.map((banner, index) => (
         <SwiperSlide>
           <div className="hero">
-            <div className="flex-col hero-content lg:flex-row-reverse md:pt-20">
+            <div className="flex-col pt-20 hero-content lg:flex-row-reverse">
               <img
                 src={banner.image}
                 alt="banner"
@@ -46,11 +46,11 @@ const Hero = () => {
                     <span className="text-[0.5pc] md:text-[1pc]">₦</span>
                     {banner.price}
                   </h1>
-                  <h1 className="font-bold text-[3pc] md:text-[5pc] text-bg-red uppercase">
+                  <h1 className={`${styles.heroHeadText} text-bg-red`}>
                     {banner.title}
                   </h1>
                 </div>
-                <p className="py-6">{banner.description}</p>
+                <p className="py-6 leading-6">{banner.description}</p>
                 <div className="flex items-center gap-2">
                   <button className={`${styles.btnRed}`}>Add to Cart</button>
                   <button className={`${styles.btnBlack}`}>Book a Table</button>

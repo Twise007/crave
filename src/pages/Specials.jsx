@@ -6,31 +6,33 @@ import { RiStarFill } from "react-icons/ri";
 const Specials = () => {
   return (
     <div className="py-16" id="ourspecials">
-      <div className="text-center">
-        <p className="text-bg-black">ONLINE STORE</p>
-        <h1 className="text-bg-red text-[48px]">Popular Meals</h1>
+      <div className="leading-10 text-center">
+        <p className={` ${styles.sectionSubText}text-bg-black`}>ONLINE STORE</p>
+        <h1 className={`${styles.sectionHeadText} text-bg-red leading-none`}>
+          Popular Meals
+        </h1>
       </div>
-      <div className="flex gap-4 mt-4 overflow-x-auto">
+      <div className="flex flex-wrap items-center justify-center gap-10 mt-10">
         {popularMeal.map((meal, index) => (
-          <div className="shadow-xl card w-96">
-            <figure className="pt-10">
-              <img src={meal.image} alt="meal" className="object-cover w-36 h-36" />
+          <div className="px-4 pt-2 shadow-2xl card rounded-2xl w-[280px]">
+            <figure className="">
+              <img
+                src={meal.image}
+                alt="meal"
+                className="object-cover w-[180px] h-[180px]"
+              />
             </figure>
-            <div className="items-center leading-3 text-center card-body">
-              <div className="flex my-4 text-bg-red">
+            <div className={`items-center justify-center text-center`}>
+              <div className="flex justify-center my-4 text-center text-bg-red">
                 <RiStarFill />
                 <RiStarFill />
                 <RiStarFill />
                 <RiStarFill />
                 <RiStarFill />
               </div>
-              <p>{meal.country}</p>
-              <h2 className="text-2xl capitalize">{meal.title}</h2>
-              <div className="card-actions">
-                <button className={`${styles.btnRed}`}>
-                  Add to cart{" "}
-                  <span className="p-1 border-l-2">₦{meal.price}</span>
-                </button>
+              <h1 className="font-bold capitalize">{meal.title}</h1>
+              <div className={`${styles.btnRed}  mb-6 mt-2 mx-5`}>
+                Add to cart ₦{meal.price}
               </div>
             </div>
           </div>

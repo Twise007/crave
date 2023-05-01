@@ -7,20 +7,20 @@ import { BsFillShareFill } from "react-icons/bs";
 const FoodMenu = () => {
   return (
     <div className="py-16" id="menu">
-      <div className="text-center">
-        <p className="text-bg-black">POPULAR MENU</p>
-        <h1 className="text-bg-red text-[48px]">
+      <div className="leading-10 text-center">
+        <p className={` ${styles.sectionSubText}text-bg-black`}>POPULAR MENU</p>
+        <h1 className={`${styles.sectionHeadText} text-bg-red leading-none`}>
           Amazing food you don`t want to miss
         </h1>
       </div>
       <div className="flex flex-wrap items-center justify-center gap-10 mt-10">
         {popularMenu.map((meal, index) => (
-          <div className="px-4 pt-2 shadow-2xl rounded-2xl w-80">
-            <figure>
+          <div className="px-4 pt-2 shadow-2xl card rounded-2xl w-[370px]">
+            <figure className="">
               <img
                 src={meal.image}
                 alt="meal"
-                className="object-cover w-40 h-40"
+                className="object-cover w-[180px] h-[180px]"
               />
             </figure>
             <div className={`items-center`}>
