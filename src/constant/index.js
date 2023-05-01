@@ -6,18 +6,27 @@ const staffs = [
     image: woman,
     title: "Customer Representative",
     name: "Alicia Keys",
+    fb: "https://facebook.com",
+    tw: "https://twitter.com",
+    li: "https://linkedin.com"
   },
   {
     id: 2,
     image: chef,
     title: "Senior Chef Manager",
     name: "John Lee",
+    fb: "https://facebook.com",
+    tw: "https://twitter.com",
+    li: "https://linkedin.com"
   },
   {
     id: 3,
     image: blackMan,
     title: "Managing Director",
     name: "Samuel Edwards",
+    fb: "https://facebook.com",
+    tw: "https://twitter.com",
+    li: "https://linkedin.com"
   },
 ];
 

@@ -6,7 +6,7 @@ import { BsFacebook, BsTwitter, BsLinkedin } from "react-icons/bs";
 const Chefs = () => {
   return (
     <div className="text-center">
-      <p className={`${styles.sectionSubText}`}>Our Staff</p>
+      <p className={`${styles.sectionSubText}`}>Our Staffs</p>
       <div className="border-t-8">
         <div className="flex flex-wrap items-center justify-center gap-10 mt-8 ">
           {staffs.map((staff, index) => (
@@ -22,13 +22,25 @@ const Chefs = () => {
               <div className={`items-center justify-center text-center`}>
                 <h1 className="pt-2 capitalize">{staff.title}</h1>
                 <div className="flex items-center pt-2 justify-evenly">
-                  <div className={`${styles.btnRed}`}>
+                  <div
+                    className={`${styles.btnRed}`}
+                    key={index}
+                    onClick={() => window.open(staff.fb, "_blank")}
+                  >
                     <BsFacebook />
                   </div>
-                  <div className={`${styles.btnRed}`}>
+                  <div
+                    className={`${styles.btnRed}`}
+                    key={index}
+                    onClick={() => window.open(staff.tw, "_blank")}
+                  >
                     <BsTwitter />
                   </div>
-                  <div className={`${styles.btnRed}`}>
+                  <div
+                    className={`${styles.btnRed}`}
+                    key={index}
+                    onClick={() => window.open(staff.li, "_blank")}
+                  >
                     <BsLinkedin />
                   </div>
                 </div>
