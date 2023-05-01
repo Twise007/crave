@@ -1,4 +1,50 @@
-import { beans, curry, jollofR, okra, amala, fried, egusi, woman, blackMan, chef } from "../assets";
+import {
+  beans,
+  curry,
+  jollofR,
+  okra,
+  amala,
+  fried,
+  egusi,
+  woman,
+  blackMan,
+  chef,
+  t1,
+  t2,
+  t3,
+  t4,
+} from "../assets";
+
+const testimoniesData = [
+  {
+    id: 1,
+    image: t1,
+    name: "micheal owen",
+    description:
+      "I enjoy premium services Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ullam commodi autem natus harum consequatur. Quis quisquam blanditiis, nulla amet tempore architecto repellat velit saepe laboriosam unde quas laborum culpa!",
+  },
+  {
+    id: 2,
+    image: t2,
+    name: "belinda smith",
+    description:
+      "I enjoy premium services Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ullam commodi autem natus harum consequatur. Quis quisquam blanditiis, nulla amet tempore architecto repellat velit saepe laboriosam unde quas laborum culpa!",
+  },
+  {
+    id: 3,
+    image: t3,
+    name: "samual joe",
+    description:
+      "I enjoy premium services Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ullam commodi autem natus harum consequatur. Quis quisquam blanditiis, nulla amet tempore architecto repellat velit saepe laboriosam unde quas laborum culpa!",
+  },
+  {
+    id: 4,
+    image: t4,
+    name: "lisa satish",
+    description:
+      "I enjoy premium services Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ullam commodi autem natus harum consequatur. Quis quisquam blanditiis, nulla amet tempore architecto repellat velit saepe laboriosam unde quas laborum culpa!",
+  },
+];
 
 const staffs = [
   {
@@ -8,7 +54,7 @@ const staffs = [
     name: "Alicia Keys",
     fb: "https://facebook.com",
     tw: "https://twitter.com",
-    li: "https://linkedin.com"
+    li: "https://linkedin.com",
   },
   {
     id: 2,
@@ -17,7 +63,7 @@ const staffs = [
     name: "John Lee",
     fb: "https://facebook.com",
     tw: "https://twitter.com",
-    li: "https://linkedin.com"
+    li: "https://linkedin.com",
   },
   {
     id: 3,
@@ -26,7 +72,7 @@ const staffs = [
     name: "Samuel Edwards",
     fb: "https://facebook.com",
     tw: "https://twitter.com",
-    li: "https://linkedin.com"
+    li: "https://linkedin.com",
   },
 ];
 
@@ -151,4 +197,4 @@ const popularMeal = [
   },
 ];
 
-export { popularMenu, heroBanner, popularMeal, staffs };
+export { popularMenu, heroBanner, popularMeal, staffs, testimoniesData };

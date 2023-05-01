@@ -12,8 +12,16 @@ import chef from "./chef.png";
 import woman from "./woman.png";
 import blackMan from "./blackMan.png";
 import leftQuote from "./leftQuote.png";
+import t1 from "./t1.png";
+import t2 from "./t2.png";
+import t3 from "./t3.png";
+import t4 from "./t4.png";
 
 export {
+  t1,
+  t2,
+  t3,
+  t4,
   leftQuote,
   fiveChickhen,
   beans,
