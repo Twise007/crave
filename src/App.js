@@ -3,6 +3,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./index.css";
 import {
+  About,
   FoodMenu,
   Hero,
   Navbar,
@@ -22,6 +23,7 @@ function App() {
         <div className={`${styles.padding}`}>
           <Specials />
           <FoodMenu />
+          <About/>
         </div>
       </div>
     </BrowserRouter>
