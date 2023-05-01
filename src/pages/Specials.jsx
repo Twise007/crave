@@ -12,9 +12,13 @@ const Specials = () => {
           Popular Meals
         </h1>
       </div>
-      <div className="flex flex-wrap items-center justify-center gap-10 mt-10">
+      <div
+        className={`py-4 ${styles.paddingX} mr-6 flex flex-row gap-3 overflow-y-auto`}
+      >
         {popularMeal.map((meal, index) => (
-          <div className="px-4 pt-2 shadow-2xl card rounded-2xl w-[280px]">
+          <div
+            className="px-4 pt-2 shadow card rounded-2xl w-[18pc] bg-bg-sec min-w-[18pc]"
+          >
             <figure className="">
               <img
                 src={meal.image}

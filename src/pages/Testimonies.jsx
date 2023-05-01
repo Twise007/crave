@@ -1,7 +1,6 @@
 import { React, useState } from "react";
 import { styles } from "../styles";
 import { testimoniesData } from "../constant";
-import { blackMan } from "../assets";
 import { FaQuoteLeft, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const Testimonies = () => {
