@@ -5,7 +5,7 @@ import { RiStarFill } from "react-icons/ri";
 
 const Specials = () => {
   return (
-    <div className="mt-16" id="ourspecials">
+    <div className="py-16" id="ourspecials">
       <div className="text-center">
         <p className="text-bg-black">ONLINE STORE</p>
         <h1 className="text-bg-red text-[48px]">Popular Meals</h1>
@@ -14,7 +14,7 @@ const Specials = () => {
         {popularMeal.map((meal, index) => (
           <div className="shadow-xl card w-96">
             <figure className="pt-10">
-              <img src={meal.image} alt="meal" className="rounded-xl" />
+              <img src={meal.image} alt="meal" className="object-cover w-36 h-36" />
             </figure>
             <div className="items-center leading-3 text-center card-body">
               <div className="flex my-4 text-bg-red">

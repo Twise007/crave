@@ -3,6 +3,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./index.css";
 import {
+  FoodMenu,
   Hero,
   Navbar,
   Specials,
@@ -18,6 +19,7 @@ function App() {
           <Hero />
         </div>
         <Specials/>
+        <FoodMenu/>
       </div>
     </BrowserRouter>
   );
