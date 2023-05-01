@@ -8,6 +8,7 @@ import {
   Hero,
   Navbar,
   Specials,
+  Testimonies,
 } from "./pages";
 import { styles } from "./styles";
 
@@ -24,6 +25,7 @@ function App() {
           <Specials />
           <FoodMenu />
           <About/>
+          <Testimonies/>
         </div>
       </div>
     </BrowserRouter>

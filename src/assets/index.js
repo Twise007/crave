@@ -11,8 +11,10 @@ import logo from "./logo.png";
 import chef from "./chef.png";
 import woman from "./woman.png";
 import blackMan from "./blackMan.png";
+import leftQuote from "./leftQuote.png";
 
 export {
+  leftQuote,
   fiveChickhen,
   beans,
   curry,
