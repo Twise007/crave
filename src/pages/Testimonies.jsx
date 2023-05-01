@@ -13,10 +13,10 @@ const Testimonies = () => {
         </h1>
       </div>
       <div className="flex-col items-center justify-center mt-8 shadow-2xl md:flex-row card card-side">
-        <figure className="rounded-[100px] shadow my-4 ml-6 bg-bg-sec h-[15pc]">
-          <img src={blackMan} alt="testify" className="" />
+        <figure className="rounded-[100px] shadow my-4 md:ml-6 bg-bg-sec md:w-full w-[12pc]">
+          <img src={blackMan} alt="testify" className="h-full " />
         </figure>
-        <div className="flex flex-col ml-4 card-body">
+        <div className="flex flex-col md:ml-4 card-body">
           <div className="">
             <div className="">
               <FaQuoteLeft className="text-2xl md:text-6xl text-bg-red" />
