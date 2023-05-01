@@ -14,8 +14,8 @@ import { logo } from "../assets";
 import { styles } from "../styles";
 
 const navLinks = [
-  { title: "Menu", id: "menu", icon: <BsFillPersonLinesFill /> },
   { title: "Our specials", id: "ourspecials", icon: <BsFillChatQuoteFill /> },
+  { title: "Menu", id: "menu", icon: <BsFillPersonLinesFill /> },
   { title: "About us", id: "about us", icon: <BsFillPieChartFill /> },
   { title: "Testimonies", id: "testimonies", icon: <BsFillChatQuoteFill /> },
   { title: "Contact", id: "contact", icon: <BsPersonVcard /> },
@@ -56,8 +56,8 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          {/* <img src={logo} alt="logo" className="object-contain w-9 h-9" /> */}
-          <p className="text-[18px] font-bold cursor-pointer flex text-bg-red my-3">
+          <img src={logo} alt="logo" className="object-contain w-9 h-9" />
+          <p className="text-[18px] font-bold cursor-pointer flex text-bg-red">
             Crave Foods
           </p>
         </Link>

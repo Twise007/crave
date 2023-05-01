@@ -115,24 +115,11 @@ const popularMeal = [
     country: "India",
   },
   {
-    id: 3,
-    image: jollofR,
-    title: "jollof rice",
-    price: "1200",
-  },
-  {
     id: 4,
     image: okra,
     title: "okra soup",
     price: "1100",
     country: "Ghana",
-  },
-  {
-    id: 5,
-    image: fiveChickhen,
-    title: "five Chickhen",
-    price: "1500",
-    country: "Universal"
   },
   {
     id: 6,

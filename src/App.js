@@ -5,6 +5,7 @@ import "./index.css";
 import {
   Hero,
   Navbar,
+  Specials,
 } from "./pages";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Navbar />
           <Hero />
         </div>
+        <Specials/>
       </div>
     </BrowserRouter>
   );
