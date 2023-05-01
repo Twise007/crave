@@ -1,5 +1,4 @@
 import {
-  fiveChickhen,
   beans,
   curry,
   jollofR,
