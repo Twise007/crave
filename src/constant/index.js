@@ -133,12 +133,13 @@ const popularMenu = [
 const heroBanner = [
   {
     id: 1,
-    image: beans,
-    title: "Beans and fried plantains",
+    image: jollofR,
+    title: "jollof rice",
     description:
-      "Porridge beans is a popular and flavorful one-pot bean dish that is widely enjoyed. It is made by cooking bean in a rich and spicy tomato-based sauce with a variety of ingredients such as onions, peppers, and seasonings. fried plantians",
-    price: "500",
+      "Nigeria jollof rice is a popular and flavorful one-pot rice dish that is widely enjoyed in Nigeria and other West African countries. It is made by cooking rice in a rich and spicy tomato-based sauce with a variety of ingredients such as onions, peppers, and seasonings.",
+    price: "1200",
   },
+
   {
     id: 2,
     image: curry,
@@ -149,11 +150,11 @@ const heroBanner = [
   },
   {
     id: 3,
-    image: jollofR,
-    title: "jollof rice",
+    image: fried,
+    title: "Fried rice",
     description:
-      "Nigeria jollof rice is a popular and flavorful one-pot rice dish that is widely enjoyed in Nigeria and other West African countries. It is made by cooking rice in a rich and spicy tomato-based sauce with a variety of ingredients such as onions, peppers, and seasonings.",
-    price: "1200",
+      "Fried rice is a popular and flavorful one-pot rice dish that is widely enjoyed in Nigeria and other past of the world. It is made by cooking rice in a rich and sauce with a variety of ingredients such as onions, peppers, and seasonings.",
+    price: "1100",
   },
   {
     id: 4,

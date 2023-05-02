@@ -32,7 +32,7 @@ const Hero = () => {
               <img
                 src={banner.image}
                 alt="banner"
-                className="object-cover w-[15pc] h-[15pc] md:w-[30pc] md:h-[30pc]"
+                className="object-contain w-[15pc] h-[15pc] md:w-[30pc] md:h-[30pc] "
               />
               <div
                 className={`inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-col items-start leading-none`}
