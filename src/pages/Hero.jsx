@@ -23,7 +23,7 @@ const Hero = () => {
       }}
       navigation={true}
       modules={[Autoplay, Pagination, Navigation]}
-      className="duration-500 mySwiper"
+      className="mySwiper"
     >
       {heroBanner.map((banner, index) => (
         <SwiperSlide>

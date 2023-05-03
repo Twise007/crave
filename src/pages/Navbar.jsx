@@ -3,19 +3,20 @@ import { Link } from "react-router-dom";
 import Hamburger from "hamburger-react";
 import {
   BsFillChatQuoteFill,
-  BsFillPersonLinesFill,
   BsFillPieChartFill,
   BsPersonVcard,
   BsSearch,
   BsBagHeart,
 } from "react-icons/bs";
 import { AiOutlineUser } from "react-icons/ai";
+import {SiIfood} from "react-icons/si";
+import {MdRestaurantMenu} from "react-icons/md";
 import { logo } from "../assets";
 import { styles } from "../styles";
 
 const navLinks = [
-  { title: "Our specials", id: "ourspecials", icon: <BsFillChatQuoteFill /> },
-  { title: "Menu", id: "menu", icon: <BsFillPersonLinesFill /> },
+  { title: "Our specials", id: "ourspecials", icon: <SiIfood /> },
+  { title: "Menu", id: "menu", icon: <MdRestaurantMenu /> },
   { title: "About us", id: "about us", icon: <BsFillPieChartFill /> },
   { title: "Testimonies", id: "testimonies", icon: <BsFillChatQuoteFill /> },
   { title: "Contact", id: "contact", icon: <BsPersonVcard /> },

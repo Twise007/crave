@@ -17,7 +17,7 @@ const Specials = () => {
       >
         {popularMeal.map((meal, index) => (
           <div
-            className="px-4 pt-2 shadow card rounded-2xl w-[18pc] bg-bg-sec min-w-[18pc]"
+            className="px-4 pt-4 shadow card rounded-2xl w-[18pc] bg-bg-sec min-w-[18pc] items-center"
           >
             <figure className="">
               <img
