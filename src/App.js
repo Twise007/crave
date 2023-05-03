@@ -12,6 +12,7 @@ import {
 } from "./pages";
 import { styles } from "./styles";
 import Sidebar from "./pages/Sidebar";
+import Coffee from "./pages/Coffee";
 
 function App() {
   return (
@@ -24,10 +25,12 @@ function App() {
         </div>
         <div className={`${styles.padding}`}>
           <Specials />
-          <Sidebar></Sidebar>
+          <Sidebar>
+          </Sidebar>
+
           <FoodMenu />
-          <About/>
-          <Testimonies/>
+          <About />
+          <Testimonies />
         </div>
       </div>
     </BrowserRouter>
