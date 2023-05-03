@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./index.css";
@@ -12,7 +12,6 @@ import {
 } from "./pages";
 import { styles } from "./styles";
 import Sidebar from "./pages/Sidebar";
-import Coffee from "./pages/Coffee";
 
 function App() {
   return (
@@ -25,9 +24,7 @@ function App() {
         </div>
         <div className={`${styles.padding}`}>
           <Specials />
-          <Sidebar>
-          </Sidebar>
-
+          <Sidebar/>
           <FoodMenu />
           <About />
           <Testimonies />
