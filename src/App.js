@@ -11,6 +11,7 @@ import {
   Testimonies,
 } from "./pages";
 import { styles } from "./styles";
+import Sidebar from "./pages/Sidebar";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         </div>
         <div className={`${styles.padding}`}>
           <Specials />
+          <Sidebar></Sidebar>
           <FoodMenu />
           <About/>
           <Testimonies/>

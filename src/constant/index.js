@@ -15,6 +15,17 @@ import {
   t4,
 } from "../assets";
 
+
+import { GiCoffeeCup, GiFullPizza, GiApothecary } from "react-icons/gi";
+import { IoFastFoodSharp } from "react-icons/io5";
+
+const sideMenu = [
+  { name: "Coffee", link: "/coffee", icon: GiCoffeeCup },
+  { name: "Fast Food", link: "/fastfood", icon: IoFastFoodSharp },
+  { name: "Pizza", link: "/pizza", icon: GiFullPizza },
+  { name: "Naija Menu", link: "/naijamenu", icon: GiApothecary },
+];
+
 const testimoniesData = [
   {
     id: 1,
@@ -170,9 +181,9 @@ const heroBanner = [
 const popularMeal = [
   {
     id: 1,
-    image: beans,
-    title: "Beans and fried plantains",
-    price: "500",
+    image: amala,
+    title: "Amala and Ewedu",
+    price: "1100",
     country: "Nigeria",
   },
   {
@@ -183,19 +194,19 @@ const popularMeal = [
     country: "India",
   },
   {
-    id: 4,
+    id: 3,
     image: okra,
     title: "okra soup",
     price: "1100",
     country: "Ghana",
   },
   {
-    id: 6,
-    image: amala,
-    title: "Amala and Ewedu",
-    price: "1100",
+    id: 4,
+    image: beans,
+    title: "Beans and fried plantains",
+    price: "500",
     country: "Nigeria",
   },
 ];
 
-export { popularMenu, heroBanner, popularMeal, staffs, testimoniesData };
+export { popularMenu, heroBanner, popularMeal, staffs, testimoniesData, sideMenu };
