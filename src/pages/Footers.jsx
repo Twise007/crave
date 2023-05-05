@@ -7,10 +7,12 @@ import Contact from "./Contact";
 const Footers = () => {
   return (
     <div className="flex flex-col">
-      <div className={`${styles.padding} z-10 -mb-20 bg-bg-white mx-14 rounded-2xl border border-bg-red`}>
-        <Contact/>
+      <div
+        className={`${styles.padding} z-10 -mb-20 bg-bg-white sm:mx-16 mx-6 rounded-2xl border border-bg-red`}
+      >
+        <Contact />
       </div>
-      <footer className="p-10 pt-12 bg-black mt-14 footer">
+      <footer className="p-10 mt-4 bg-black pt-28 footer">
         <Link
           to="/"
           className="items-center justify-center cursor-pointer text-bg-white"

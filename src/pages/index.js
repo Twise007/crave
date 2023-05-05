@@ -8,6 +8,13 @@ import Specials from "./Specials";
 import Contact from "./Contact";
 import Footers from "./Footers";
 
+
+import Coffee from "./Coffee";
+import Cakes from "./Cakes";
+import Pizza from "./Pizza";
+import Fastfood from "./Fastfood";
+import Naijamenu from "./Naijamenu";
+
 export {
   Hero,
   Navbar,
@@ -18,4 +25,11 @@ export {
   Specials,
   Contact,
   Footers,
+
+  Coffee,
+  Cakes,
+  Pizza,
+  Fastfood,
+  Naijamenu,
+
 };

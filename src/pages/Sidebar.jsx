@@ -33,9 +33,7 @@ const Sidebar = ({ children }) => {
                 <li
                   key={index}
                   className={`${
-                    active === menu.link
-                      ? "text-bg-red "
-                      : ""
+                    active === menu.link ? "text-bg-red " : ""
                   } flex items-center gap-5 p-2 m-3 my-8 text-sm rounded-lg cursor-pointer text-bg-black bg-bg-white hover:bg-bg-red hover:text-bg-white `}
                   onClick={() => setActive(menu.link)}
                 >
@@ -56,7 +54,7 @@ const Sidebar = ({ children }) => {
         </div>
       </div>
 
-      <div className="flex-1 h-auto ml-8 overflow-y-scroll rounded-lg bg-bg-sec">
+      <div className="flex-1 h-auto p-2 ml-8 overflow-x-scroll rounded-lg bg-bg-sec">
         {children}
       </div>
     </div>

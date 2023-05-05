@@ -1,13 +1,18 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./index.css";
 import {
   About,
+  Cakes,
+  Coffee,
+  Fastfood,
   FoodMenu,
   Footers,
   Hero,
+  Naijamenu,
   Navbar,
+  Pizza,
   Specials,
   Testimonies,
 } from "./pages";
@@ -25,7 +30,56 @@ function App() {
         </div>
         <div className={`${styles.padding}`}>
           <Specials />
-          <Sidebar />
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <Sidebar>
+                  <Coffee />
+                </Sidebar>
+              }
+            />
+            <Route
+              path="/coffee"
+              element={
+                <Sidebar>
+                  <Coffee />
+                </Sidebar>
+              }
+            />
+            <Route
+              path="/cakes"
+              element={
+                <Sidebar>
+                  <Cakes />
+                </Sidebar>
+              }
+            />
+            <Route
+              path="/pizza"
+              element={
+                <Sidebar>
+                  <Pizza />
+                </Sidebar>
+              }
+            />
+            <Route
+              path="/fastfood"
+              element={
+                <Sidebar>
+                  <Fastfood />
+                </Sidebar>
+              }
+            />
+            <Route
+              path="/naijamenu"
+              element={
+                <Sidebar>
+                  <Naijamenu />
+                </Sidebar>
+              }
+            />
+          </Routes>
           <FoodMenu />
           <About />
           <Testimonies />
