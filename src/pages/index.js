@@ -5,6 +5,7 @@ import Chefs from "./Chefs";
 import FoodMenu from "./FoodMenu";
 import Testimonies from "./Testimonies";
 import Specials from "./Specials";
+import Sidebar from "./Sidebar";
 import Contact from "./Contact";
 import Footers from "./Footers";
 
@@ -23,6 +24,7 @@ export {
   FoodMenu,
   Testimonies,
   Specials,
+  Sidebar,
   Contact,
   Footers,
 

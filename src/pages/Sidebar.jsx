@@ -27,7 +27,7 @@ const Sidebar = ({ children }) => {
         </div>
 
         <div className={`flex flex-col pr-2`}>
-          <ul className="">
+          <ul>
             {sideMenu.map((menu, index) => (
               <Link to={menu.link} key={index}>
                 <li
@@ -54,7 +54,7 @@ const Sidebar = ({ children }) => {
         </div>
       </div>
 
-      <div className="flex-1 h-auto p-2 ml-8 overflow-x-scroll rounded-lg bg-bg-sec">
+      <div className="flex-1 h-auto p-0 ml-8 overflow-x-scroll rounded-lg sm:p-1 md:p-2 bg-bg-sec">
         {children}
       </div>
     </div>

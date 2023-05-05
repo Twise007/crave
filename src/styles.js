@@ -17,7 +17,7 @@ const styles = {
     "md:text-[60px] sm:text-[50px] xs:text-[40px] capitalize text-[30px]",
   sectionSubText: "sm:text-[18px] text-[14px] uppercase tracking-wider",
   sideBarTitle:
-    "sm:text-[18px] text-[14px] uppercase tracking-wider text-end text-bg-black -mb-10 font-bold pb-2 mb:pb-0",
+    "sm:text-[18px] text-[14px] uppercase tracking-wider text-end text-bg-black font-bold",
 };
 
 export { styles };

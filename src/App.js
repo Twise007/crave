@@ -15,9 +15,9 @@ import {
   Pizza,
   Specials,
   Testimonies,
+  Sidebar
 } from "./pages";
 import { styles } from "./styles";
-import Sidebar from "./pages/Sidebar";
 
 function App() {
   return (
