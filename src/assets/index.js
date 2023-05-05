@@ -16,8 +16,14 @@ import t1 from "./t1.png";
 import t2 from "./t2.png";
 import t3 from "./t3.png";
 import t4 from "./t4.png";
+import pizza from "./pizza.png";
+import fast from "./fast.png";
+import wedCake from "./wedCake.png";
 
 export {
+  fast,
+  pizza,
+  wedCake,
   t1,
   t2,
   t3,

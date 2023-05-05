@@ -17,7 +17,7 @@ const SideBarDetails = ({ title, sideBarImage }) => {
           <img
             src={sideBarImage}
             alt="meal"
-            className="ronded-lg w-[8rem] md:w-[16rem] lg:w-[34rem]"
+            className="ronded-lg w-[8rem] md:w-[16rem] lg:w-[34rem] object-contain"
           />
           <div>
             <h1
