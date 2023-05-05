@@ -5,6 +5,7 @@ import "./index.css";
 import {
   About,
   FoodMenu,
+  Footers,
   Hero,
   Navbar,
   Specials,
@@ -24,11 +25,12 @@ function App() {
         </div>
         <div className={`${styles.padding}`}>
           <Specials />
-          <Sidebar/>
+          <Sidebar />
           <FoodMenu />
           <About />
           <Testimonies />
         </div>
+        <Footers />
       </div>
     </BrowserRouter>
   );

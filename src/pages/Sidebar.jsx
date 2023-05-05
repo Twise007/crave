@@ -46,9 +46,6 @@ const Sidebar = ({ children }) => {
                     className={`text-base font-meduim ${
                       !open && "opacity-0 translate-x-28 overflow-hidden"
                     }`}
-                    style={{
-                      transitionDelay: `${index + 3}00ms`,
-                    }}
                   >
                     {menu.name}
                   </span>

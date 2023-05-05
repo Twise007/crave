@@ -16,13 +16,19 @@ import {
 } from "../assets";
 
 
-import { GiCoffeeCup, GiFullPizza, GiApothecary } from "react-icons/gi";
+import {
+  GiCoffeeCup,
+  GiFullPizza,
+  GiApothecary,
+  GiStairsCake,
+} from "react-icons/gi";
 import { IoFastFoodSharp } from "react-icons/io5";
 
 const sideMenu = [
   { name: "Coffee", link: "/coffee", icon: GiCoffeeCup },
-  { name: "Fast Food", link: "/fastfood", icon: IoFastFoodSharp },
+  { name: "Cakes", link: "/cakes", icon: GiStairsCake },
   { name: "Pizza", link: "/pizza", icon: GiFullPizza },
+  { name: "Fast Food", link: "/fastfood", icon: IoFastFoodSharp },
   { name: "Naija Menu", link: "/naijamenu", icon: GiApothecary },
 ];
 

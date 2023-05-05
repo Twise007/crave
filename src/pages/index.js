@@ -5,6 +5,7 @@ import Chefs from "./Chefs";
 import FoodMenu from "./FoodMenu";
 import Testimonies from "./Testimonies";
 import Specials from "./Specials";
+import Contact from "./Contact";
 import Footers from "./Footers";
 
 export {
@@ -15,5 +16,6 @@ export {
   FoodMenu,
   Testimonies,
   Specials,
+  Contact,
   Footers,
 };
