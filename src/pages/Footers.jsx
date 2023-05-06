@@ -28,7 +28,7 @@ const Footers = () => {
         </Link>
         <div className={`uppercase tracking-wider text-bg-sec`}>
           <span className="text-lg footer-title">Services</span>
-          <a href="#ourspecial" className="link link-hover">
+          <a href="#ourspecials" className="link link-hover">
             Our specials
           </a>
           <a href="#menu" className="link link-hover">
