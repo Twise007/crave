@@ -10,7 +10,7 @@ const FoodMenu = () => {
       <div className="leading-10 text-center">
         <p className={` ${styles.sectionSubText}text-bg-black`}>POPULAR MENU</p>
         <h1 className={`${styles.sectionHeadText} text-bg-red leading-none`}>
-          Amazing food you don`t want to miss
+          Amazing food you don't want to miss
         </h1>
       </div>
       <div className="flex flex-wrap items-center justify-center gap-10 mt-10">

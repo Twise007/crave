@@ -12,7 +12,7 @@ const Footers = () => {
       >
         <Contact />
       </div>
-      <footer className="p-10 mt-4 bg-black pt-28 footer">
+      <footer className="p-10 mt-4 bg-black py-28 footer">
         <Link
           to="/"
           className="items-center justify-center cursor-pointer text-bg-white"
