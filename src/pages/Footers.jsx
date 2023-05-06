@@ -3,6 +3,7 @@ import { logo } from "../assets";
 import { styles } from "../styles";
 import { Link } from "react-router-dom";
 import Contact from "./Contact";
+import Design from "../component/Design";
 
 const Footers = () => {
   return (
@@ -60,6 +61,7 @@ const Footers = () => {
           </a>
         </div>
       </footer>
+      <Design />
     </div>
   );
 };
