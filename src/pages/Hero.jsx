@@ -27,7 +27,7 @@ const Hero = () => {
     >
       {heroBanner.map((banner, index) => (
         <SwiperSlide>
-          <div className="mb-4 hero">
+          <div className="hero">
             <div className="flex-col pt-20 hero-content lg:flex-row-reverse">
               <img
                 src={banner.image}
@@ -55,7 +55,7 @@ const Hero = () => {
                   <button className={`${styles.btnRed}`}>Add to Cart</button>
                   <button className={`${styles.btnBlack}`}>Book a Table</button>
                 </div>
-                <div className="flex items-center gap-8 pt-8">
+                <div className="flex flex-col items-center gap-8 pt-8 pb-4 md:flex-row">
                   <div>
                     <h2 className="font-bold">Lunch</h2>
                     <p className="pt-2 font-light">1:00pm - 3:00pm</p>

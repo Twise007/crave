@@ -24,7 +24,7 @@ function App() {
     <BrowserRouter>
       <ToastContainer />
       <div className="relative z-0 bg-bg-white text-bg-black font">
-        <div className="bg-center bg-no-repeat bg-cover hero bg-bg-sec">
+        <div className="bg-center bg-no-repeat bg-cover  hero bg-bg-sec">
           <Navbar />
           <Hero />
         </div>
