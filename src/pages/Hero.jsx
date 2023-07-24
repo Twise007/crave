@@ -27,7 +27,7 @@ const Hero = () => {
     >
       {heroBanner.map((banner, index) => (
         <SwiperSlide>
-          <div className="hero">
+          <div className="max-h-screen hero">
             <div className="flex-col pt-20 hero-content lg:flex-row-reverse">
               <img
                 src={banner.image}
